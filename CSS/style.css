@@ -2,9 +2,14 @@ body {
 background-color: #f8f7e7;
 }
 
+.logo{
+  margin: 0px 0px 0px 28px;
+}
+
 header {
   display:flex;
   justify-content: space-between;
+  border-bottom-style: solid;
 }
 
 header ul {
@@ -12,8 +17,34 @@ header ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 20px;
+}
+
+header li{
+  margin: 41.5px 37px 42.5px 0px
+}
+
+h1 {
+  color: #323133;
+  font-size: 96 px;
+  text-align: center;
+}
+
+.heroImg {
+  margin: 0px 118px;
 }
 
 footer {
-background-color: #323133;
+  background-color: #323133;
+  display:flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  display:flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #f8f7e7;
+  text-align: center;
 }
