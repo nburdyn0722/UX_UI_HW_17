@@ -18,6 +18,10 @@ header ul {
   margin: 0;
   padding: 0;
   font-size: 20px;
+  text-transform: uppercase;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header li{
@@ -26,8 +30,31 @@ header li{
 
 h1 {
   color: #323133;
-  font-size: 96 px;
+  font-size: 120px;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "pragmatica-extended", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  letter-spacing: 15%;
+  line-height: 160px;
+}
+
+h2 {
+  color: #323133;
+  text-transform: uppercase;
+  font-family: "pragmatica-extended", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 32px
+}
+  
+p {
+  color: #323133;
+  font-family: "courier-prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
 }
 
 .heroImg {
@@ -36,15 +63,36 @@ h1 {
 
 footer {
   background-color: #323133;
-  display:flex;
-  justify-content: space-between;
+}
+
+.footernav {
+  display: flex;
+  justify-content: space-around;
 }
 
 footer ul {
   display:flex;
+  justify-content: space-around;
   list-style: none;
   margin: 0;
   padding: 0;
   color: #f8f7e7;
-  text-align: center;
+  text-transform: uppercase;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+footer li{
+  margin: 41.5px 37px 42.5px 0px
+}
+
+.footersecondrow {
+  justify-content: space-between;
+  display: flex;
+}
+
+.footercontent {
+  color: #f8f7e7;
 }
