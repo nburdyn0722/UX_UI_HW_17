@@ -46,7 +46,9 @@ h2 {
   font-family: "pragmatica-extended", sans-serif;
   font-weight: 700;
   font-style: bold;
-  font-size: 32px
+  font-size: 32px;
+  margin-top: -9px;
+  padding-top: 0px;
 }
   
 p {
@@ -59,6 +61,11 @@ p {
 
 .heroImg {
   margin: 0px 118px;
+  display: flex;
+}
+
+.headshot{
+  margin-right: 50px;
 }
 
 footer {
