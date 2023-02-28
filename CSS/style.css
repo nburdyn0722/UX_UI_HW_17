@@ -3,7 +3,7 @@ background-color: #f8f7e7;
 }
 
 .logo{
-  margin: 14px 0px 0px 28px;
+  margin: 14px 0px 14px 28px;
 }
 
 .primbuttonlg {
@@ -106,13 +106,14 @@ footer {
 .footernav {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 80px;
 }
 
 footer ul {
   display:flex;
   justify-content: space-around;
   list-style: none;
-  margin: 0;
+  margin: margin: 0px 0px 4px 0px;
   padding: 0;
   color: #f8f7e7;
   text-transform: uppercase;
@@ -123,7 +124,7 @@ footer ul {
 }
 
 footer li{
-  margin: 41.5px 37px 42.5px 0px
+  margin: 14px 18px 10px 18px
 }
 
 .footersecondrow {
@@ -133,9 +134,14 @@ footer li{
 
 .footercontent {
   color: #f8f7e7;
-  margin-left: 28px;
+  font-family: "pragmatica-extended", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  margin: 80px 28px 80px 28px;
 }
 
 .copyright {
-  color: #f8f7e7
+  color: #f8f7e7;
+  text-align: center;
+  margin-bottom: 28px;
 }
