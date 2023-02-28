@@ -40,7 +40,7 @@ header {
 header ul {
   display:flex;
   list-style: none;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 4px 0px;
   padding: 0;
   font-size: 20px;
   text-transform: uppercase;
@@ -48,10 +48,12 @@ header ul {
   font-weight: 400;
   font-style: normal;
   color:#323133;
+  block-size: 48px;
+  text-align: center;
 }
 
 header li{
-  margin: 20px 18px 20px 18px
+  margin: 14px 18px 10px 18px
 }
 
 h1 {
@@ -65,6 +67,7 @@ h1 {
   letter-spacing: 15%;
   line-height: 160px;
   margin-bottom: 48px;
+  margin-top: 0px;
 }
 
 h2 {
@@ -130,4 +133,9 @@ footer li{
 
 .footercontent {
   color: #f8f7e7;
+  margin-left: 28px;
+}
+
+.copyright {
+  color: #f8f7e7
 }
