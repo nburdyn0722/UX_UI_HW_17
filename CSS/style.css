@@ -123,7 +123,7 @@ footer ul {
   display:flex;
   justify-content: space-around;
   list-style: none;
-  margin: 0px 0px 4px 0px;
+  margin: 28px 0px 4px 0px;
   padding: 0;
   color: #f8f7e7;
   text-transform: uppercase;
@@ -140,6 +140,7 @@ footer li{
 .footersecondrow {
   justify-content: space-between;
   display: flex;
+  margin-top: -30px;
 }
 
 .footercontent {
@@ -150,8 +151,25 @@ footer li{
   margin: 80px 28px 80px 28px;
 }
 
+.contacticons {
+  color:#f8f7e7;
+  height: 35px;
+  width: 40px;
+}
+
 .copyright {
   color: #f8f7e7;
-  text-align: center;
-  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  font-family: "oswald", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+  margin-top: -30px;
+  padding-bottom: 28px;
+}
+
+.material-symbols-outlined {
+  margin-left: 5px;
+  margin-right: 5px;
 }
