@@ -126,6 +126,15 @@ footer {
   font-weight: 700;
   font-style: normal;
   width: 149.82px;
+  margin: 14px 0px 10px 0px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.secbuttonsmfooterMarg {
+  margin-top: 14px;
+  margin-bottom: 10px
 }
 
 .balancewidth {
@@ -147,7 +156,7 @@ footer ul {
 }
 
 footer li{
-  margin: 14px 18px 10px 18px
+  margin: 0px 18px 10px 18px
 }
 
 .footersecondrow {
