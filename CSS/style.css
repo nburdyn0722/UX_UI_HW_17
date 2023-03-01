@@ -115,8 +115,21 @@ footer {
 
 .footernav {
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 80px;
+  justify-content: space-between;
+  margin: 0px 28px 80px 28px
+}
+
+.secbuttonsmfooter {
+  background-color: #94532b;
+  color:#f8f7e7;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 149.82px;
+}
+
+.balancewidth {
+  width: 149.82px;
 }
 
 footer ul {
