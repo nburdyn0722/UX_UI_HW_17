@@ -141,7 +141,7 @@ footer {
   width: 149.82px;
 }
 
-footer ul {
+.footernavlist {
   display:flex;
   justify-content: space-around;
   list-style: none;
@@ -155,7 +155,7 @@ footer ul {
   font-size: 20px;
 }
 
-footer li{
+.footernavobject {
   margin: 0px 18px 10px 18px
 }
 
@@ -174,10 +174,21 @@ footer li{
   margin: 35px 28px 0px 28px;
 }
 
-.contacticons {
+.rightspaceplaceholder {
+  width: 200px;
+  margin-right: 28px;
+}
+
+.contactsicons {
   color:#f8f7e7;
-  height: 35px;
-  width: 40px;
+  display: flex;
+  list-style: none;
+  margin-top: 98px;
+  margin-left: 84px;
+}
+
+.indvcontacticon {
+  margin: 0px 0px 0px 10px;
 }
 
 .copyright {
@@ -188,11 +199,11 @@ footer li{
   font-weight: 300;
   font-style: normal;
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: 10px;
   padding-bottom: 28px;
 }
 
-.material-symbols-outlined {
+.copyrighticon {
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 5px
 }
